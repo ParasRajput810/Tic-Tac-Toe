@@ -1,0 +1,39 @@
+
+.heading{
+    margin-left: 80vh;
+    margin-top: 10px;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+#Reset{
+    margin-left: 800px;
+}
+.tic-tac-toe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+  
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 319.2px;
+    height: 310px;
+    position: fixed;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+  
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    font-size: 120px;
+    align-items: center;
+    justify-content: center;
+    
+}
